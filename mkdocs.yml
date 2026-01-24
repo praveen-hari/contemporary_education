@@ -1,0 +1,34 @@
+site_name: Contemporary Education
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+nav:
+  - Home: index.md
+  - Units:
+    - Unit I - Education in Contemporary India: units/Unit_01_EDUCATION_IN_CONTEMPORARY_INDIA.md
+    - Unit II - Understanding Social Diversity: units/Unit_02_UNDERSTANDING_SOCIAL_DIVERSITY.md
+    - Unit III - Educational Demands of Individuals and Diverse Communities: units/Unit_03_EDUCATIONAL_DEMANDS_OF_INDIVIDUALS_AND_DIVERSE_COMMU.md
+    - Unit IV - Language Policy in Education: units/Unit_04_LANGUAGE_POLICY_IN_EDUCATION.md
+    - Unit V - Implications of Equality of Educational Opportunities: units/Unit_05_IMPLICATIONS_OF_EQUALITY_OF_EDUCATIONAL_OPPORTUNITIE.md
