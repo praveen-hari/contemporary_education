@@ -22,7 +22,7 @@ Then visit http://localhost:8000
 
 ## Deployment to GitHub Pages
 
-This site is configured for deployment to GitHub Page
+This site is configured for deployment to GitHub Pages
 
 ### Steps to Deploy:
 
